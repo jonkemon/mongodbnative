@@ -1,0 +1,27 @@
+{
+  "name": "dbnative",
+  "version": "0.0.1",
+  "description": "MongoDb Native connection client",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jonkemon/mongodbnative.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Client",
+    "Node"
+  ],
+  "author": "Christian Kvalheim",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jonkemon/mongodbnative/issues"
+  },
+  "homepage": "https://github.com/jonkemon/mongodbnative#readme",
+  "dependencies": {
+    "mongodb": "^2.0.33"
+  }
+}
