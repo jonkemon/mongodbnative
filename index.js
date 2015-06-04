@@ -1,3 +1,5 @@
 var mongodb = require('mongodb');
 
-console.log('mongodb: ', mongodb);
+module.exports = function mongodbNative() {
+	return console.log('mongodb: ', mongodb)
+}
